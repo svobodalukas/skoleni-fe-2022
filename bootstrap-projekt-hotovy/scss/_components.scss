@@ -1,0 +1,39 @@
+// Real estate components
+
+// Layout
+h2 {
+  margin: 0 0 2rem;
+  text-align: center;
+}
+
+// Products
+.card-footer {
+  background-color: transparent;
+}
+
+// Accordion
+.accordion {
+  .card:not(:first-of-type) {
+    border-top: 1px solid $border-color;
+  }
+
+  .card-header {
+    background-color: transparent;
+  }
+}
+
+// Hero text
+.hero {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Carousel
+.carousel-item {
+  max-height: calc(100vh - 3.5rem);
+}
+
+.carousel-inner {
+  opacity: 0.4;
+}

@@ -1,0 +1,6 @@
+podklady/
+dist/
+_log/
+node_modules/
+font/
+*.code-workspace
